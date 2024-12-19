@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tareas</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="log.avif" type="image/x-icon">
+</head>
+<body>
+    <main>
+        <div class="container">
+            <h1>Todo list</h1>
+            <hr>
+            <!-- Entrada para nueva tarea -->
+            <label for="inp-a">Nueva tarea</label>
+            <br>
+            <input id="inp-a" type="text" placeholder="Escribe una tarea...">
+            <button id="btn-a">Agregar</button>
+            <br><br>
+
+            <!-- Contadores -->
+            <div class="box">
+                <div class="box-1">
+                    <p>Total: <span id="total">0</span></p>
+                    <p>Realizadas: <span id="ready">0</span></p>
+                </div>
+                <div class="box-2">
+                    <table border="1" cellspacing="0" cellpadding="10">
+                        <thead>
+                            <tr>
+                                <th id="id-t">ID</th>
+                                <th>Tarea</th>
+                            </tr>
+                        </thead>
+                        <tbody id="div">
+                            
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+            <!-- Tabla de tareas -->
+            
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

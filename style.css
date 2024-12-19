@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+}
+main{
+    background-color: rgb(224, 224, 224);
+    border: 2px solid black;
+}
+.container{
+    padding: 30px;
+}
+.container > input{
+    width: 55%;
+    padding: 10px;
+}
+#btn-a{
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
+.box{
+    display: flex;
+}
+
+.box-2{
+    margin: auto;
+}
+
+#div > li{
+    text-align: start;
+}
+th{
+    padding: 2px;
+    text-align: start;
+}
+@media (min-width: 765px) {
+    main{
+        width: 80%;
+    }
+    .container > input{
+        width: 75%;
+    }
+    
+}
